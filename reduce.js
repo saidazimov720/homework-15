@@ -8,6 +8,6 @@ function reduce(arr, cb, initVal) {
     return acc;
 }
 
-const num = [1,2,3,4,5,6,7];
-const sum = reduce(num, (acc, currNum) => acc + currNum, 0);
+const num1 = [1,2,3,4,5,6,7];
+const sum = reduce(num1, (acc, currNum) => acc + currNum, 0);
 console.log(sum);
