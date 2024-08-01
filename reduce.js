@@ -1,3 +1,3 @@
-function reduce(params) {
+function reduce(arr, cb, initVal) {
     
 }
