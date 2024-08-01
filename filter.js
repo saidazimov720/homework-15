@@ -7,6 +7,6 @@ function filter(arr, cb) {
     }
     return res;
 }
-const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const even = filter(num, number => number % 2 == 0);
+const num2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const even = filter(num2, number => number % 2 == 0);
 console.log(even);
