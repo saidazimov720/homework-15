@@ -1,4 +1,7 @@
+"use strict";
 function reduce(arr, cb, initVal) {
+    let acc;
+    let startId;
     if (initVal !== undefined) {
         acc = initVal;
         startId = 0;
